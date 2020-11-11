@@ -5,9 +5,10 @@ package com.mycompany.app;
  */
 public class App {
 
-  private final String message = "Helloo World!";
+  private final String message = "Hello World!";
 
-  public App() {}
+  public App() {
+  }
 
   public static void main(String[] args) {
     System.out.println(new App().getMessage());
